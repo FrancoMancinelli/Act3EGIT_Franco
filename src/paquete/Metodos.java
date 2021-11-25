@@ -7,7 +7,7 @@ public class Metodos {
 		int[] array = new int [20];
 		valoresRandomArray(array, 1, 10);
 		recorrerAr(array);
-		
+		cuentaOcurrencias(array);
 	}
 
 	/**
@@ -47,5 +47,25 @@ public class Metodos {
 		System.out.print("}");
 	}
 
+	/**
+	 * Revisa cuantas veces se repite un numero en un array dado y lo imprime
+	 * por pantalla
+	 * @param a Array a evaluar
+	 */
+	public static void cuentaOcurrencias(int[] a) {
+
+		//Dibuja e imprime los valores del array
+		int aux;
+		int ocurrencias;
+		for (int i = 0; i < a.length; i++) {
+			ocurrencias = 0;
+			aux = a[i];
+			for (int j = 0; j < a.length; j++) {
+				if(aux == a[j]) {
+				ocurrencias++;
+				}
+			}
+			System.out.println("El número "+ aux +" se repite "+ ocurrencias + " veces");		}
 	
+	}
 }
