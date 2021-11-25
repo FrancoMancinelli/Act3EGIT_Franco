@@ -6,6 +6,7 @@ public class Metodos {
 		
 		int[] array = new int [20];
 		valoresRandomArray(array, 1, 10);
+		recorrerAr(array);
 		
 	}
 
@@ -27,6 +28,24 @@ public class Metodos {
 		return a;
 	}
 	
+	/**
+	 * Recorre e imprime un array entre llaves y separados los valores por comas
+	 * 
+	 * @param a Array el cual se desea recorrer
+	 * @return
+	 */
+	public static void recorrerAr(int[] a) {
 
+		//Dibuja e imprime los valores del array
+		System.out.print("{");
+		for (int i = 0; i < a.length; i++) {
+			System.out.print(a[i]);
+			if (i != a.length - 1) {
+				System.out.print(", ");
+			}
+		}
+		System.out.print("}");
+	}
 
+	
 }
