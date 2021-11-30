@@ -4,7 +4,7 @@ public class Metodos {
 
 	public static void main(String[] args) {
 		
-		int[] array = new int [20];
+		int[] array = new int [30];
 		valoresRandomArray(array, 1, 10);
 		
 	}
