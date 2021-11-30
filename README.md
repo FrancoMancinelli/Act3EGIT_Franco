@@ -1,7 +1,7 @@
 ## Repositorio de Entornos de Desarrollo 📂
 ### Tarea 3 de Entornos
 Este repositorio se ha creado para realizar la tarea 3 de ED :smirk:
-Dentro de la carpeta encontraremos 3 métodos java
+Dentro de la carpeta encontraremos 3 métodos java en una misma clase, que se han ido creando periodicamente:
 - Método para rellenar un array con números random
 - Método para recorrer un array e imprimirlo por pantalla
 - Método para contar ocurrencias de cada número del array
